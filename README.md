@@ -1,0 +1,5 @@
+- 👋 Hi, I’m @Paloma6Silva
+- 👀 I’m interested in learning
+- 🌱 I’m currently learning Data Science, Big Data & BI
+- 💞️ I’m looking to collaborate on python, sql and power bi projects
+- 📫 How to reach me paloma.gds93@gmail.com
