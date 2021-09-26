@@ -1,0 +1,15 @@
+# Calculadora de Calorias
+tipo_alimento = ''
+qtd_alimentos = 0
+qtd_calorias = 0
+calorias_ingeridas = 0
+sair = ''
+
+while sair != 'Não':
+    tipo_alimento = input("Qual tipo de alimento foi consumido? ")
+    qtd_alimentos = input("Qual a quantidade ingerida desse alimento? ")
+    qtd_calorias = input("Qual a quantidade de calorias desse alimento? ")
+    sair = input("Você deseja inserir mais algum alimento? Digite 'Sim' ou 'Não' ")
+    calorias_ingeridas = int(calorias_ingeridas) + int(qtd_calorias) * int(qtd_alimentos)
+
+print("Foram ingeridas {} alimentos e {} calorias".format(qtd_alimentos, calorias_ingeridas))
